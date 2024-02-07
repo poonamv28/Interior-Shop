@@ -69,7 +69,7 @@
     <input type="password" id="password" name="password" required><br>
 
     <label for="dob" class="required">Date of Birth:</label>
-    <input type="date" id="dob" name="dob" required><br>
+    <input type="date" id="dob" name="dob" required pattern="\d{4}-\d{2}-\d{2}" max="2004-01-01"><br>
 
     <label class="required">Gender:</label>
     <input type="radio" id="male" name="gender" value="Male" required>
